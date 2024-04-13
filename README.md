@@ -1,4 +1,6 @@
-# Bina's dots
+<p align="center">
+  <img src="./images/header.png" alt="Bina's dotfiles" style="width: 100%;">
+</p>
 
 Welcome to my dotfiles repo, home to my first ever rice :3
 
