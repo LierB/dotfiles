@@ -29,17 +29,19 @@ list of main programs, applications, tools and themes that I use for my rice
 | icons               | [Ketsa](https://github.com/zayronxio/ketsa-icon-theme) & [Reversal](https://github.com/yeyushengfan258/Reversal-icon-theme)
 | font                | [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 | document viewer     | [zathura](https://github.com/pwmt/zathura)
+| audio visualizer    | [cava](https://github.com/karlstav/cava)
 
 <details style="margin-bottom: 20px;">
 <summary>Plans... </summary>
 
-...to improve the rice. I intend to implement the following tools in the near future:<br/>
+...to improve the rice. I intend to implement the following tools in the (near) future:<br/>
 
 | component           | resource  
 | :---------          | :-------  
 | login menu          | [sddm](https://github.com/sddm/sddm) 
 | notifications daemon | [dunst](https://github.com/dunst-project/dunst)
 | firefox startpage    | [firefoxCSS](https://github.com/Aris-t2/CustomCSSforFx) 
+| widgets             | [ags](https://github.com/Aylur/ags) or [eww](https://github.com/elkowar/eww)
 
 </details>
 
