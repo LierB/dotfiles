@@ -42,6 +42,10 @@ new_wp=$(echo $wallpaper | sed "s|$HOME/wallpapers/||g")
 source "$HOME/.cache/wal/colors.sh"
 ~/.config/waybar/launch.sh
 
+# update soft link to cava colors based on wallpaper colors
+# (cava needs to manually be restarted)
+ln -sf "$HOME/.cache/wal/cava-colors" "$HOME/.config/cava/config"
+
 # switch to new wallpaper with swww
 transition_type="grow"
 #transition_type="wipe"
@@ -61,4 +65,6 @@ fi
 
 # update current wallpaper file
 echo "$wallpaper" > "$current_wp"
+
+
 
