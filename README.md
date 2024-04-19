@@ -30,9 +30,10 @@ list of main programs, applications, tools and themes that I use for my rice
 | font                | [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 | document viewer     | [zathura](https://github.com/pwmt/zathura)
 | audio visualizer    | [cava](https://github.com/karlstav/cava)
+| terminal games      | [snake](https://github.com/PonasKovas/snake) & [2048](https://github.com/mevdschee/2048.c)
 
 <details style="margin-bottom: 20px;">
-<summary>Plans... </summary>
+<summary>plans... </summary>
 
 ...to improve the rice. I intend to implement the following tools in the (near) future:<br/>
 
@@ -45,7 +46,44 @@ list of main programs, applications, tools and themes that I use for my rice
 
 </details>
 
+## Showcase
 
-## Preview
+This is how my rice could look like. The simple act of changing the wallpaper transforms the entire ambiance - thanks to pywal, my rice can evolve into a canvas of endless possibilities.
 
-screenshots will follow
+Hope you enjoy it :3
+
+### Penrose triangle forest
+<p align="center">
+  <img src="./showcase/grid_penrose-triangle-forest.png" style="width: 100%;">
+</p>
+
+### Saltern study night
+<p align="center">
+  <img src="./showcase/grid_saltern-study-night.png" style="width: 100%;">
+</p>
+
+### Boho colorful pastel
+<p align="center">
+  <img src="./showcase/grid_boho-colorful-pastel.png" style="width: 100%;">
+</p>
+
+### Tropical leaves
+<p align="center">
+  <img src="./showcase/grid_tropical-leaves.png" style="width: 100%;">
+</p>
+
+### Penrose triangle sky
+<p align="center">
+  <img src="./showcase/grid_penrose-triangle-sky.png" style="width: 100%;">
+</p>
+
+### Moody flowers
+<p align="center">
+  <img src="./showcase/grid_moody-flowers.png" style="width: 100%;">
+</p>
+
+### Vibrant colors
+<p align="center">
+  <img src="./showcase/grid_vibrant-colors.png" style="width: 100%;">
+</p>
+
