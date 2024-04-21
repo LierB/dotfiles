@@ -5,8 +5,7 @@
 <br>
   <a href="#packages"><kbd> <br> Packages <br> </kbd></a>&ensp;&ensp;
   <a href="#showcase"><kbd> <br> Schowcase <br> </kbd></a>&ensp;&ensp;
-  <a href="#installation"><kbd> <br> Installation <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/LierB/dotfiles/wiki/Installation"><kbd> <br> Wiki <br> </kbd></a> <br>
+  <a href="#installation"><kbd> <br> Installation <br> </kbd></a> <br>
 </div>
 
 <h3 align="left">
@@ -105,10 +104,6 @@ Hope you enjoy it :3
 
 ## Installation
 
-See the [wiki](https://github.com/LierB/dotfiles/wiki/Installation) on how to install yourself.
+See the [wiki](https://github.com/LierB/dotfiles/wiki/Installation) on how to manually install it yourself.
 
 An automatic install script will follow for you.
-
-## Keybindings
-
-A list of the most important keybinds will follow.
