@@ -1,8 +1,17 @@
 <p align="center">
   <img src="./images/header.png" alt="Bina's dotfiles" style="width: 100%;">
 </p>
+<div align="left">
+<br>
+  <a href="#packages"><kbd> <br> Packages <br> </kbd></a>&ensp;&ensp;
+  <a href="#showcase"><kbd> <br> Schowcase <br> </kbd></a>&ensp;&ensp;
+  <a href="#installation"><kbd> <br> Installation <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/LierB/dotfiles/wiki/Installation"><kbd> <br> Wiki <br> </kbd></a> <br>
+</div>
 
+<h3 align="left">
 Welcome to my dotfiles repo, home to my first ever rice :3
+</h3>
 
 I've chosen to utilize the Hyprland tiling window manager as the heart of my personalized Linux environment. Pywal as the color-scheme generator adapts to any wallpaper, ensuring a harmonious visual experience throughout my setup making it simple to tailor the ambiance to match my current mood. 
 
@@ -94,3 +103,12 @@ Hope you enjoy it :3
   <img src="./showcase/grid_vibrant-colors.png" style="width: 100%;">
 </p>
 
+## Installation
+
+See the [wiki](https://github.com/LierB/dotfiles/wiki/Installation) on how to install yourself.
+
+An automatic install script will follow for you.
+
+## Keybindings
+
+A list of the most important keybinds will follow.
