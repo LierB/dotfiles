@@ -30,6 +30,7 @@ list of main programs, applications, tools and themes that I use for my rice
 | bar                 | [waybar](https://github.com/Alexays/Waybar)
 | logout menu         | [wlogout](https://github.com/ArtsyMacaw/wlogout)
 | lockscreen          | [hyprlock](https://github.com/hyprwm/hyprlock)
+| idle daemon         | [hypridle](https://github.com/hyprwm/hypridle)
 | app launcher        | [wofi](https://hg.sr.ht/~scoopta/wofi)
 | wallpaper daemon    | [swww](https://github.com/LGFae/swww)
 | screenshot tool     | [grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast)
