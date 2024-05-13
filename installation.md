@@ -60,7 +60,7 @@ yay -S python-pywal wlogout swww grimblast-git
 ### Optional packages 
 The packages that we install here are really nice, but not relevant for the rice. You can decide which one to istall. 
 ```shell
-sudo pacman -S neofetch zathura
+sudo pacman -S fastfetch neofetch zathura
 yay -S cava tty-clock snake 2048.c 
 ```
 
