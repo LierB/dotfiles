@@ -25,7 +25,7 @@ list of main programs, applications, tools and themes that I use for my rice
 | color theme         | [pywal](https://github.com/dylanaraps/pywal)
 | terminal emulator   | [kitty](https://github.com/kovidgoyal/kitty)
 | shell               | [zsh](https://github.com/ohmyzsh)
-| fetch displayer     | [neofetch](https://github.com/dylanaraps/neofetch)
+| fetch displayer     | [fastfetch](https://github.com/fastfetch-cli/fastfetch) (or [neofetch](https://github.com/dylanaraps/neofetch))
 | resource monitor    | [btop](https://github.com/aristocratos/btop)
 | bar                 | [waybar](https://github.com/Alexays/Waybar)
 | logout menu         | [wlogout](https://github.com/ArtsyMacaw/wlogout)
