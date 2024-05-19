@@ -46,7 +46,7 @@ sudo pacman -S wget
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 yay -S zsh-autosuggestions-git zsh-autocomplete-git zsh-syntax-highlighting-git fast-syntax-highlighting
 ```
-In the `.zshrc` file you can pick your favorite zsh-theme. I prefer "robbyrussell" as it's most minimalistic in my view. You can wait with these modifications until the end of setting up this rice.
+In the `~/.zshrc` file you can pick your favorite zsh-theme. I prefer "robbyrussell" as it's most minimalistic in my view. You can wait with these modifications until the end of setting up this rice.
 
 
 ### Components
@@ -60,9 +60,18 @@ yay -S python-pywal wlogout swww grimblast-git
 ### Optional packages 
 The packages that we install here are really nice, but not relevant for the rice. You can decide which one to istall. 
 ```shell
-sudo pacman -S fastfetch neofetch zathura
+sudo pacman -S fastfetch neofetch zathura zoxide
 yay -S cava tty-clock snake 2048.c 
 ```
+If you want to use another [fastfetch](https://github.com/fastfetch-cli/fastfetch) layout, you could get inspirations from my [fastfetch config presets](https://github.com/LierB/fastfetch). I use the alias `fetch` to run fastfetch with a few options.
+
+[zoxide](https://github.com/ajeetdsouza/zoxide) is a "smarter cd command for your terminal". With rebinding cd to zoxide in the `~/.zshrc` file you won't notice it, but you can be much more productive if you read in how to use it. 
+
+> [!NOTE]
+> In case you don't want to install and use zoxide, you would need to delete or outcomment the respective line in the `~/.zshrc` file:
+> ```shell
+> # eval "$(zoxide init --cmd cd zsh)"
+> ```
 
 ### Fonts & Icons & cursors
 You can use the defaults or any font, icon set and cursor you find pretty. I explain the setup of my selection with the next update of the wiki.
