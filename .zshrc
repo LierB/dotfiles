@@ -12,6 +12,7 @@ export PATH=$HOME/bin:/usr/bin:/usr/local/bin:$PATH
 # -- oh-my-zsh --
 # https://github.com/ohmyzsh
 export ZSH=$HOME/.oh-my-zsh
+# decide on a theme (or create your own)
 ZSH_THEME="robbyrussell"
 plugins=( 
     git
@@ -33,15 +34,20 @@ source ~/.cache/wal/colors-tty.sh
 # -- xcursor --
 export XCURSOR_PATH=${XCURSOR_PATH}:~/.local/share/icons
 
+# -- zoxide --
+# z as alternative to cd navigating via path fragments
+# case insensitive, only last component must match the path
+# frecency algorithm (combination of frequency and recency)
+# interactive zoxide zi lists visited dirs with their score
+# rebind cd command using cd and cdi
+eval "$(zoxide init --cmd cd zsh)"
+
 # -- aliases --
 # can be written to a separate file in $ZSH/custom
-alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME" # this is for my personal dotfiles repo
 alias zsh="vim ~/.zshrc"
-alias szsh="source ~/.zshrc"
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
+alias szsh="source ~/.zshrci"
+alias fetch="c;fastfetch --colors-block-range-start 9 --colors-block-width 3;"
 # -g : global aliases work anywhere on the command line
 alias -g G='| grep'
 alias -g L='| less'
