@@ -106,7 +106,9 @@ mkdir ~/wallpapers/
 And then copy or move your wallpapers in.
 
 ## Modify the rice
-Now it's time for your own creativity. Change the zsh-theme or create your own theme, add wallpapers, modify the .css files or whatever comes to your mind. Ask me, if you need help. I'm glad to support you.
+Now it's time for your own creativity. Change the zsh-theme or create your own theme, add wallpapers, modify the .css files or whatever comes to your mind. Ask me, if you need help. I'm glad to support you.<br>
+You can use this command to select the Fastfetch theme: <code>fastfetch-theme-selector</code><br>
+<a href="https://m3tozz.github.io/FastCat-Themes/">Click here to preview FastFetch configurations</a>
 
 I would be happy to see your results :3
 
