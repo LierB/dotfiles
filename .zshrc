@@ -72,7 +72,5 @@ alias gd="git diff"
 alias gra="git remote add"
 alias grr="git remote rm"
 alias gsh="git stash"
-
-
-
+alias fastfetch-theme-selector="bash ~/.config/fastfetch-theme-selector/FastCat/fastcat.sh -s"
 
