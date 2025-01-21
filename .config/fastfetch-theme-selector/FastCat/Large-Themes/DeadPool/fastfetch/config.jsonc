@@ -1,0 +1,69 @@
+//    ______           __  ______      __
+//   / ____/___ ______/ /_/ ____/___ _/ /_
+//  / /_  / __ `/ ___/ __/ /   / __ `/ __/
+// / __/ / /_/ (__  ) /_/ /___/ /_/ / /_
+///_/    \__,_/____/\__/\____/\__,_/\__/
+//  https://github.com/m3tozz/FastCat
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+         "source": "~/.config/fastfetch/ascii.txt",
+    },
+    "display": {
+        "separator": "  ",
+        "constants": [
+            "─────────────────" // {$1}, used in Custom module
+        ],
+        "key": {
+            "type": "icon",
+            "paddingLeft": 2
+        }
+    },
+    "modules": [
+        {
+            "type": "custom", // HardwareStart
+            // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
+            "format": "┌{$1} {#1}Hardware Information{#} {$1}┐"
+        },
+        "host",
+        "cpu",
+        "gpu",
+        "disk",
+        "memory",
+        "swap",
+	
+        {
+            "type": "custom", // SoftwareStart
+            "format": "├{$1} {#1}Software Information{#} {$1}┤"
+        },
+        {
+            "type": "title",
+            "keyIcon": "",
+            "key": "Title", // Title module has no key by default, so that icon is not displayed
+            "format": "{user-name}@{host-name}"
+        },
+        "os",
+        "kernel",
+        "de",
+        "wm",
+        "shell",
+        "terminal",
+        "terminalfont",
+        "packages",
+        "uptime",
+	        {
+            "type": "localip",
+            "compact": true
+        },
+        {
+            "type": "publicip",
+            "timeout": 1000
+        },
+	
+
+        {
+            "type": "custom", // InformationEnd
+            "format": "└{$1}──────────────────────{$1}┘"
+        },
+    ]
+}
