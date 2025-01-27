@@ -104,7 +104,12 @@ Hope you enjoy it :3
 </p>
 
 ## Installation
+<details>
+<summary>Automatic installation command (for ArchLinux)</summary>
+  First install oh-my-zsh: <code>sudo pacman -S wget && sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</code><br/>
+  And start install.sh (in dotfiles folder): <code>bash ./install.sh</code>
+</details>
 
-See the [install guide](https://github.com/LierB/dotfiles/blob/master/installation.md) on how to manually install this rice yourself.
+> [!NOTE]
+> See the [install guide](https://github.com/LierB/dotfiles/blob/master/installation.md) on how to manually install this rice yourself.
 
-An automatic install script will follow.
