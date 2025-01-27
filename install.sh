@@ -26,7 +26,7 @@ sudo pacman -S fastfetch neofetch zathura zoxide
 cd appsmake
 git clone https://aur.archlinux.org/cava.git && cd cava && makepkg -si && cd .. 
 git clone https://aur.archlinux.org/tty-clock.git && cd tty-clock && makepkg -si && cd .. 
-git clone https://aur.archlinux.org/snake.git && cd snake && makepkg -si && cd ..
+git clone https://aur.archlinux.org/snake.git && cd snake && makepkg -si && cd .. && cd ..
 
 echo -e '\e[1;34mCopying config files...\033[0m'
 rm -r /home/$USER/.zshrc
