@@ -1,0 +1,36 @@
+//   _ _ _ _____ _____ _ 
+//  | | | |     |   __|_|
+//  | | | |  |  |   __| |
+//  |_____|_____|__|  |_|  CONFIG
+//  
+//  by Bina
+
+
+mode=drun
+allow_images=true
+image_size=30
+prompt= search
+columns=1
+width=480
+height=330
+no_actions=true
+monitor=DP-1
+location=center
+colors=colors
+filter_rate=100
+allow_markup=true
+halign=fill
+orientation=vertical
+content_halign=fill
+matching=contains
+insensitive=true
+term=kitty
+parse_search=true
+allow_markup=true
+single_click=false
+line_wrap=char
+key_down=Tab
+key_expand=Right
+key_forward=Down
+
+

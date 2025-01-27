@@ -1,0 +1,43 @@
+//   _ _ _ _____ __ __ _____ _____ _____
+//  | | | |  _  |  |  | __  |  _  | __  |
+//  | | | |     |_   _| __ -|     |    -|
+//  |_____|__|__| |_| |_____|__|__|__|__|  CONFIG
+//
+//  by Bina
+
+
+{
+	// load modules
+	"include": "~/.config/waybar/modules.json",
+	
+	// general settings
+	"position": "top",
+	"margin-top": 8,
+	"margin-bottom": 0,
+	"layer": "top",
+	"margin-left": 8,
+	"margin-right": 8,    
+	"spacing": 10,
+	"fixed-center": true,
+	"exclusive": true,
+	
+	// modules
+	"modules-left": [
+	    "hyprland/workspaces",
+            "wlr/taskbar"
+        ],
+        
+        "modules-center": [
+            "clock"
+        ],
+        
+       "modules-right": [
+           "group/hardware",
+           "pulseaudio",
+           "bluetooth",
+           "network",
+           "battery", 
+           "custom/exit"
+        ]
+}
+
